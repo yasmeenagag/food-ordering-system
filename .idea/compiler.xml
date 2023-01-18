@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-application" />
+        <module name="order-messaging" />
+        <module name="order-dataacess" />
+        <module name="order-domain-core" />
+        <module name="order-application-service" />
+        <module name="order-container" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order-data-access" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
