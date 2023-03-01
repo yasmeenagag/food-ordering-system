@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order-application" />
         <module name="order-messaging" />
+        <module name="order-application-service" />
+        <module name="common-domain" />
+        <module name="order-application" />
         <module name="order-dataacess" />
         <module name="order-domain-core" />
-        <module name="order-application-service" />
         <module name="order-container" />
       </profile>
     </annotationProcessing>
